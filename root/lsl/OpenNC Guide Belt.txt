@@ -1,0 +1,86 @@
+This is a beta release of the chastity belt by Betsy Hastings
+(based on the OC cuffs by Cleo Collins)
+
+The chastity belt (here after refered to as CB) can be kept the same colors and textures as the collar (if same labels for prims are used) and share owners.
+
+Please report any bugs and problems with this release to Betsy Hastings.
+
+
+Attention: The CB and collar will keep the same owner settings. Every change in the owner setting should be send immediately from the collar to the CB and vice versa.
+
+** The collar and the CB need to use the same name base for the prims for these functions to work.
+Based on OpenCollar scripts.
+
+Menus in the CB:
+
+- Main Menu:
+
+*Lock*/*Unlock* - Lock or unlock the CB. If RLV is used, detaching will be disabled otherwise the owner will be informed should the CB be detached when locked.
+
+Appearance - offers the possibility to change colors and textures for the CB
+
+Help/Debug - Severel options to fix problems as well as an option to get this notecard
+
+Owners - Options to set owners for the CB AND the collar
+
+Picklock - Enables the wearer to pick the lock by guessing the correct letters of a 5 or 6 letter word beginning with a certain letter. You have 2 tries to guess the correct word. If you get it wrong the second time you have to wait 5 minutes and a new word is chosen. *Note: Only works on a locked CB.
+
+RLV - Enable or disable the use of RLV, more options might come.
+
+
+
+- Appearance
+Color - Bring up a menu letting you set the color for different parts of the CB.
+Texture - Bring up the menu for setting textures on the CB.
+Hide/Show enables yo uto make certain parts of the CB invisible (especially useful for the buttplug)
+Chains - Choose between several presets for the chains/ropes for the CB. (will work in a future release with matching cuffs).
+
+
+
+- Help/Debug
+Dump Cache - Dumps the settings from the httpdb database into open chat for debugging purposes.
+Fix Menus - Forces menus of  the CB to be rebuild. Use this  first  to fix problems with the menus
+Guide - Hands out this notecard.
+Refresh DB - Refresh the settings from the database.
+
+- Owners
+Set owner - Set the sub's owner.  When first starting up, the sub *is* the owner, until another owner is set.  The name is not case sensitive; the new owner needs to be nearbyto be able to be selected from the menu. 
+Add Recowner - Add a secondary owner. The new owner needs to be nearby.
+Add Blacklist - Add people you would like to ban from using your CB.
+Set Group - Record the currently set group, allowing members of that group to have secowner-strength control over the sub.  (The currently-set group is the one you had on when you attached the collar.  You may need to re-attach the collar to change the group before recording it with this command.)
+Unset Group - Clear the group setting.
+SetOpenAccess - Allow anyone to access the CB. Anyone has the same right as the would be a Group Owner of your CB.
+UnSetOpenAccess - Remove open access.
+Reset All - Clear all CB AND collar settings.
+Rem Secowner - Remove a secondary owner from your cuffs.
+Add Blacklist - Remove people currently banned from using your cuffs.
+List Owners - List all owner settings of the cuffs
+
+Attention: The CB and collar will keep the same owner settings. Every change in the owner setting should be send immediately from the collar to the cuffs and vice versa. The only change which gets not detected is a runaway. In that case please just reattach the collar/CB. If problems with the syncing of owners appear, reattach the CB/collar as well.
+
+
+
+
+----------------
+
+OpenCollar/OpenCuffs is a set of scripts for a collar similar other collars common in SL.  Unlike those systems however, OpenCollar is open source.  You are free to copy and redistribute the OpenCollar scripts, provided that you leave them full perms.  Read the entire OpenCollar License in the notecard accompanying the scripts.
+
+The OpenCollar architecture is plug in-based, allowing for many more features to be added in the future.  Features not found in other collars include:
+
+- complete, menu-driven support for the Restrained Life Viewer.
+- optional Group control (in addition to owners and secowners)
+- menu-driven color and texture setting
+- automatic updates
+- settings are stored to an online database so that they survive script resets and are automatically transferred when you wear a new version of the cuffs.
+- and best of all, free and open source!
+
+THIS IS A BETA RELEASE
+
+Please report any bugs you find or feature requests to the OpenCollar bug tracker at http://code.google.com/p/opencollar/issues.
+
+Share these item!  The beta is open to anyone who wants to try it.
+
+Note to developers:
+All scripts labeled “OpenC_Belt” are developed for the chastity belt. Script with the name “OpenCollar” are directly taken from the OpenCollar system and not changed in any form. Scripts with the name “OpenCollar”  and the addition "modded" after the sc ript name are taken from the OpenCollar System, but have been adopted for the Cuffs/CB. All changes from the original OpenCollar scripts are documented within the scripts.
+There are scripts in sub prims for the chaining to work.
+If you want to allow the colors/textures of the cuffs and collar be kept in sync, you have to make sure the prims share the same names.
